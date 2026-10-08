@@ -1,0 +1,25 @@
+/* Лабораторна робота №4: стилі сторінки */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    line-height: 1.4;
+}
+
+/* Елементи, на які можна клікнути (завдання 1) */
+.clickable {
+    cursor: pointer;
+    padding: 4px 6px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Дві колірні схеми, які чергуються при кліках */
+.scheme-a {
+    background-color: #1e3a8a;
+    color: #ffffff;
+}
+
+.scheme-b {
+    background-color: #facc15;
+    color: #111111;
+}
